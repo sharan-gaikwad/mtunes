@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #333435;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    z-index: 1;
+    font-size: 15px;
+    overflow: hidden;
+
+}
+
+h2.logo {
+    color: white;
+    margin: 0 30px;
+    line-height: 40px;
+    display: block;
+    float: left;
+}
+
+h2.logo::after {
+    content: "";
+    clear: left;
+}
+
+nav ul {
+    list-style: none;
+    float: left;
+}
+
+nav>ul>li {
+    display: inline-block;
+    line-height: 40px;
+    padding-right: 50px;
+}
+
+nav>ul>li a {
+    color: white;
+    text-decoration: none;
+}
+
+#checkbtn {
+    color: white;
+    float: right;
+    margin-right: 30px;
+    font-size: 2rem;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+
+.wrapper {
+    position: absolute;
+    top: 40px;
+    min-width: 100%;
+}
+
+.wrapper img {
+    height: 100vh;
+    width: 100%;
+    display: block;
+
+}
+
+.banner-card {
+    position: relative;
+
+}
+
+.banner-text {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    color: white;
+}
+
+.banner-text h1 {
+    color: red;
+    margin-left: 220px;
+    font-size: 70px;
+    text-shadow: 2px 2px 5px blue;
+    width: 400px;
+    padding-left: 3vw;
+    margin-bottom: 10px;
+}
+
+.banner-text h1:hover {
+    background-color: red;
+    color: black;
+    border-radius: 50px;
+}
+
+.banner-text h3 {
+    margin-left: 150px;
+    margin-bottom: 10px;
+
+}
+
+.banner-text p {
+    margin-right: 10px;
+}
+
+.container {
+    background-color: #252529;
+    color: white;
+    min-width: 100%;
+}
+
+.music-section {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 35px;
+    min-width: 100%;
+}
+
+.icon-music {
+    margin-top: 10px;
+    font-size: 2.5rem;
+}
+
+.music-section h2 {
+    font-size: 40px;
+}
+
+.container>h3 {
+    padding-top: 45px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    background-color: #b90415;
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 45%;
+    font-size: 15px;
+
+}
+
+.container>p {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container img {
+    min-width: 100%;
+    padding-bottom: 30px;
+}
+
+.mockup {
+    width: 100%;
+}
+
+.mockup>h3 {
+    padding-top: 45px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.mockup>p {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.more {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    background-color: #103063;
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 45%;
+    font-size: 15px;
+
+}
+
+.mockup>img {
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+.entertainment {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.entertainment>img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.ent-text {
+    position: absolute;
+    top: 25%;
+}
+
+.ent-text h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.ent-text p {
+    font-size: 1rem;
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.gift-cards-div {
+    display: flex;
+    padding-top: 50px;
+}
+
+.gift-cards-img-div>img {
+    height: 400px;
+    min-width: 450px;
+    padding-left: 60px;
+}
+
+.gift-cards-text-div h2 {
+    color: #444;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.gift-cards-text-div>.para {
+    min-height: 130px;
+    font-size: 1.3vw;
+}
+
+.gift-cards-text-div hr {
+    margin-top: 20px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.redeem {
+    text-decoration: none;
+    color: #103063;
+
+}
+
+.footer-menu {
+    display: flex;
+    gap: 80px;
+    padding: 50px;
+    background-color: #141414;
+    justify-content: center;
+
+}
+
+.footer-section {
+    display: block;
+    color: white;
+    list-style: none;
+}
+
+.footer-section hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.footer-section li {
+    width: 180px;
+}
+
+.footer-bottom {
+    background: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* responsive work start from here */
+
+@media screen and (max-width:1065px) {
+    .gift-cards-img-div>img {
+        padding-left: 0px;
+    }
+
+
+    .footer-section li {
+
+        width: 190px;
+    }
+
+    .footer-menu {
+        gap: 10px;
+        padding-left: 0;
+    }
+
+}
+
+@media screen and (max-width:889px) {
+
+    .gift-cards-text-div {
+
+        padding-left: 10px;
+        font-size: 1rem;
+    }
+
+    .gift-cards-div {
+        display: block;
+    }
+
+    .gift-cards-text-div>.para {
+        font-size: 1rem;
+    }
+
+
+    .footer-menu {
+        gap: 0px;
+        text-align: center;
+    }
+
+    .footer-section hr:not(.responsive-footer-section>hr) {
+        width: 100px;
+        color: red;
+    }
+
+    .responsive-footer-section hr {
+        width: 180px;
+    }
+
+    .footer-section:not(.responsive-footer-section) {
+        width: 130px;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width:665px) {
+    .footer-menu {
+        display: none;
+    }
+
+    .banner-text h1,
+    h3,
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner-text h3 {
+        margin-left: 0px;
+    }
+
+    .mockup>img {
+        padding-right: 0px;
+        padding-left: 0px;
+
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .btn {
+        margin-left: 35%;
+    }
+
+}
+
+@media screen and (max-width:605px) {
+    nav>ul {
+        width: 100%;
+        height: 30vh;
+        background-color: rgb(122, 103, 103);
+        position: fixed;
+        bottom: -63%;
+    }
+
+    nav>ul>li {
+        display: block;
+        text-align: center;
+    }
+
+    #checkbtn {
+        display: block;
+    }
+
+    #check:checked~ul {
+        top: 7%;
+    }
+
+    .ent-text p {
+        margin-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: .9rem;
+    }
+
+    .ent-text {
+        top: 2%;
+    }
+
+    .btn {
+        margin-left: 30%;
+    }
+
+}
+
+@media screen and (max-width:430px) {
+    .more {
+        margin-left: 35%;
+    }
+
+}
